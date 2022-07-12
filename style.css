@@ -2,6 +2,14 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
 .float {
   position:fixed;
 	width:55px;
@@ -18,6 +26,8 @@
 	animation: bot-to-top 5s ease-out;
  
 }
+
+
 .float:hover{
   background-color:rgb(16, 194, 60);
 }
